@@ -1,0 +1,58 @@
+plugins {
+    alias(libs.plugins.android.application)
+    id "com.google.gms.google-services"
+}
+
+android {
+    namespace 'com.peakflow.you_must_not_cheat_yourself_your_parents_raised_a_soldier_prove_it'
+    compileSdk 35
+
+    defaultConfig {
+        applicationId "com.peakflow.you_must_not_cheat_yourself_your_parents_raised_a_soldier_prove_it"
+        minSdk 28
+        targetSdk 34
+        versionCode 1
+        versionName "1.0"
+
+        testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
+    }
+
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
+        }
+    }
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_11
+        targetCompatibility JavaVersion.VERSION_11
+    }
+}
+
+dependencies {
+
+    implementation(platform("com.google.firebase:firebase-bom:33.10.0"))
+    implementation("com.google.firebase:firebase-analytics")
+    implementation libs.appcompat
+    implementation libs.material
+    implementation libs.activity
+    implementation libs.constraintlayout
+    implementation 'com.google.firebase:firebase-auth:22.0.0'
+    implementation 'com.google.firebase:firebase-database:20.3.1'
+    implementation 'com.google.firebase:firebase-auth:22.3.1'
+    implementation 'com.squareup.okhttp3:okhttp:4.9.3'
+    testImplementation libs.junit
+    androidTestImplementation libs.ext.junit
+    androidTestImplementation libs.espresso.core
+    implementation 'com.github.PhilJay:MPAndroidChart:v3.1.0'
+    implementation "org.jetbrains.kotlin:kotlin-stdlib:1.9.0"
+    implementation "androidx.core:core-ktx:1.12.0"
+    implementation "androidx.lifecycle:lifecycle-viewmodel-ktx:2.6.2"
+    implementation "com.google.dagger:hilt-android:2.48"
+    kapt "com.google.dagger:hilt-android-compiler:2.48"
+    implementation "androidx.security:security-crypto:1.1.0-alpha06"
+}
+
+apply plugin: 'kotlin-android'
+apply plugin: 'kotlin-kapt'
+apply plugin: 'dagger.hilt.android.plugin'

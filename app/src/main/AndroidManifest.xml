@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW" />
+    <uses-permission
+        android:name="android.permission.PACKAGE_USAGE_STATS"
+        tools:ignore="ProtectedPermissions" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.POST_NOTIFICATIONS" />
+
+    <application
+        android:name=".you_must_not_cheat_yourself_your_parents_raised_a_soldier_prove_it.PeakflowApp"
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.PeakFlow"
+        tools:targetApi="31">
+        <activity
+            android:name=".SplashScreen"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".SignUpActivity"
+            android:exported="false" />
+        <activity
+            android:name=".GoalSetting8"
+            android:exported="false" />
+        <activity
+            android:name=".GoalSetting7"
+            android:exported="false" />
+        <activity
+            android:name=".GoalSetting6"
+            android:exported="false" />
+        <activity
+            android:name=".GoalSetting5"
+            android:exported="false" />
+        <activity
+            android:name=".GoalSetting4"
+            android:exported="false" />
+        <activity
+            android:name=".GoalSetting3"
+            android:exported="false" />
+        <activity
+            android:name=".GoalSetting2"
+            android:exported="false" />
+        <activity
+            android:name=".GoalSetting1"
+            android:exported="false" />
+        <activity
+            android:name=".ReportAndSuggestionsActivity"
+            android:exported="false" />
+        <activity
+            android:name=".PerformanceChartActivity"
+            android:exported="false" />
+        <activity
+            android:name=".DashboardActivity"
+            android:exported="false" />
+        <activity
+            android:name=".WeeklyTasksActivity"
+            android:exported="false" />
+        <activity
+            android:name=".RoutinePlanner"
+            android:exported="false" />
+
+        <service android:name=".AppCheckerService" />
+
+        <activity
+            android:name=".BlockerActivity"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivity2"
+            android:exported="false" />
+        <activity
+            android:name=".LoginActivity"
+            android:exported="false" />
+
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
+    </application>
+
+</manifest>

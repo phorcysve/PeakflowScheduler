@@ -1,0 +1,547 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:id="@+id/linearLayoutContainer"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="10dp">
+
+        <!-- Day Label -->
+        <TextView
+            android:id="@+id/day_of_week"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="MONDAY"
+            android:textSize="22sp"
+            android:textColor="#FFFFFF"
+            android:padding="10dp" />
+
+        <!-- Time Slot 1 -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginTop="10dp">
+            <TextView
+                android:id="@+id/time_slot1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Are you available between 7:00 to 8:00 AM?" />
+            <RadioGroup
+                android:id="@+id/radioGroup1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+                <RadioButton
+                    android:id="@+id/radioButtonYes1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Yes" />
+                <RadioButton
+                    android:id="@+id/radioButtonNo1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="No" />
+            </RadioGroup>
+        </LinearLayout>
+
+        <!-- Time Slot 2 -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginTop="10dp">
+            <TextView
+                android:id="@+id/time_slot2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Are you available between 8:00 to 9:00 AM?" />
+            <RadioGroup
+                android:id="@+id/radioGroup2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+                <RadioButton
+                    android:id="@+id/radioButtonYes2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Yes" />
+                <RadioButton
+                    android:id="@+id/radioButtonNo2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="No" />
+            </RadioGroup>
+        </LinearLayout>
+
+        <!-- Time Slot 3 -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginTop="10dp">
+            <TextView
+                android:id="@+id/time_slot3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Are you available between 9:00 to 10:00 AM?" />
+            <RadioGroup
+                android:id="@+id/radioGroup3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+                <RadioButton
+                    android:id="@+id/radioButtonYes3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Yes" />
+                <RadioButton
+                    android:id="@+id/radioButtonNo3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="No" />
+            </RadioGroup>
+        </LinearLayout>
+
+        <!-- Time Slot 4 -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginTop="10dp">
+            <TextView
+                android:id="@+id/time_slot4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Are you available between 10:00 to 11:00 AM?" />
+            <RadioGroup
+                android:id="@+id/radioGroup4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+                <RadioButton
+                    android:id="@+id/radioButtonYes4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Yes" />
+                <RadioButton
+                    android:id="@+id/radioButtonNo4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="No" />
+            </RadioGroup>
+        </LinearLayout>
+
+        <!-- Time Slot 5 -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginTop="10dp">
+            <TextView
+                android:id="@+id/time_slot5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Are you available between 11:00 to 12:00 Noon?" />
+            <RadioGroup
+                android:id="@+id/radioGroup5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+                <RadioButton
+                    android:id="@+id/radioButtonYes5"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Yes" />
+                <RadioButton
+                    android:id="@+id/radioButtonNo5"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="No" />
+            </RadioGroup>
+        </LinearLayout>
+
+        <!-- Time Slot 6 -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginTop="10dp">
+            <TextView
+                android:id="@+id/time_slot6"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Are you available between 12:00 to 1:00 PM?" />
+            <RadioGroup
+                android:id="@+id/radioGroup6"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+                <RadioButton
+                    android:id="@+id/radioButtonYes6"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Yes" />
+                <RadioButton
+                    android:id="@+id/radioButtonNo6"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="No" />
+            </RadioGroup>
+        </LinearLayout>
+
+        <!-- Time Slot 7 -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginTop="10dp">
+            <TextView
+                android:id="@+id/time_slot7"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Are you available between 1:00 to 2:00 PM?" />
+            <RadioGroup
+                android:id="@+id/radioGroup7"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+                <RadioButton
+                    android:id="@+id/radioButtonYes7"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Yes" />
+                <RadioButton
+                    android:id="@+id/radioButtonNo7"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="No" />
+            </RadioGroup>
+        </LinearLayout>
+
+        <!-- Time Slot 8 -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginTop="10dp">
+            <TextView
+                android:id="@+id/time_slot8"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Are you available between 2:00 to 3:00 PM?" />
+            <RadioGroup
+                android:id="@+id/radioGroup8"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+                <RadioButton
+                    android:id="@+id/radioButtonYes8"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Yes" />
+                <RadioButton
+                    android:id="@+id/radioButtonNo8"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="No" />
+            </RadioGroup>
+        </LinearLayout>
+
+        <!-- Time Slot 9 -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginTop="10dp">
+            <TextView
+                android:id="@+id/time_slot9"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Are you available between 3:00 to 4:00 PM?" />
+            <RadioGroup
+                android:id="@+id/radioGroup9"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+                <RadioButton
+                    android:id="@+id/radioButtonYes9"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Yes" />
+                <RadioButton
+                    android:id="@+id/radioButtonNo9"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="No" />
+            </RadioGroup>
+        </LinearLayout>
+
+        <!-- Time Slot 10 -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginTop="10dp">
+            <TextView
+                android:id="@+id/time_slot10"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Are you available between 4:00 to 5:00 PM?" />
+            <RadioGroup
+                android:id="@+id/radioGroup10"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+                <RadioButton
+                    android:id="@+id/radioButtonYes10"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Yes" />
+                <RadioButton
+                    android:id="@+id/radioButtonNo10"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="No" />
+            </RadioGroup>
+        </LinearLayout>
+
+        <!-- Time Slot 11 -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginTop="10dp">
+            <TextView
+                android:id="@+id/time_slot11"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Are you available between 5:00 to 6:00 PM?" />
+            <RadioGroup
+                android:id="@+id/radioGroup11"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+                <RadioButton
+                    android:id="@+id/radioButtonYes11"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Yes" />
+                <RadioButton
+                    android:id="@+id/radioButtonNo11"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="No" />
+            </RadioGroup>
+        </LinearLayout>
+
+        <!-- Time Slot 12 -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginTop="10dp">
+            <TextView
+                android:id="@+id/time_slot12"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Are you available between 6:00 to 7:00 PM?" />
+            <RadioGroup
+                android:id="@+id/radioGroup12"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+                <RadioButton
+                    android:id="@+id/radioButtonYes12"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Yes" />
+                <RadioButton
+                    android:id="@+id/radioButtonNo12"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="No" />
+            </RadioGroup>
+        </LinearLayout>
+
+        <!-- Time Slot 13 -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginTop="10dp">
+            <TextView
+                android:id="@+id/time_slot13"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Are you available between 7:00 to 8:00 PM?" />
+            <RadioGroup
+                android:id="@+id/radioGroup13"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+                <RadioButton
+                    android:id="@+id/radioButtonYes13"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Yes" />
+                <RadioButton
+                    android:id="@+id/radioButtonNo13"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="No" />
+            </RadioGroup>
+        </LinearLayout>
+
+        <!-- Time Slot 14 -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginTop="10dp">
+            <TextView
+                android:id="@+id/time_slot14"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Are you available between 8:00 to 9:00 PM?" />
+            <RadioGroup
+                android:id="@+id/radioGroup14"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+                <RadioButton
+                    android:id="@+id/radioButtonYes14"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Yes" />
+                <RadioButton
+                    android:id="@+id/radioButtonNo14"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="No" />
+            </RadioGroup>
+        </LinearLayout>
+
+        <!-- Time Slot 15 -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginTop="10dp">
+            <TextView
+                android:id="@+id/time_slot15"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Are you available between 9:00 to 10:00 PM?" />
+            <RadioGroup
+                android:id="@+id/radioGroup15"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+                <RadioButton
+                    android:id="@+id/radioButtonYes15"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Yes" />
+                <RadioButton
+                    android:id="@+id/radioButtonNo15"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="No" />
+            </RadioGroup>
+        </LinearLayout>
+
+        <!-- Time Slot 16 -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginTop="10dp">
+            <TextView
+                android:id="@+id/time_slot16"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Are you available between 10:00 to 11:00 PM?" />
+            <RadioGroup
+                android:id="@+id/radioGroup16"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+                <RadioButton
+                    android:id="@+id/radioButtonYes16"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Yes" />
+                <RadioButton
+                    android:id="@+id/radioButtonNo16"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="No" />
+            </RadioGroup>
+        </LinearLayout>
+
+        <!-- Time Slot 17 -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginTop="10dp">
+            <TextView
+                android:id="@+id/time_slot17"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Are you available between 11:00 to 12:00 Midnight?" />
+            <RadioGroup
+                android:id="@+id/radioGroup17"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+                <RadioButton
+                    android:id="@+id/radioButtonYes17"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Yes" />
+                <RadioButton
+                    android:id="@+id/radioButtonNo17"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="No" />
+            </RadioGroup>
+        </LinearLayout>
+
+        <!-- Time Slot 18 -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="20dp">
+            <TextView
+                android:id="@+id/time_slot18"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Are you available between 12:00 to 1:00 AM?" />
+            <RadioGroup
+                android:id="@+id/radioGroup18"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+                <RadioButton
+                    android:id="@+id/radioButtonYes18"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Yes" />
+                <RadioButton
+                    android:id="@+id/radioButtonNo18"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="No" />
+            </RadioGroup>
+        </LinearLayout>
+
+    </LinearLayout>
+</ScrollView>

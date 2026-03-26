@@ -1,0 +1,13 @@
+# Android Git Ignore
+.gradle/
+build/
+local.properties
+.idea/
+*.iml
+.DS_Store
+captures/
+.externalNativeBuild
+.cxx
+google-services.json
+*.keystore
+!debug.keystore

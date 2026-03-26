@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Goal_Setting_4">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/constraintlayout_f4"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:background="#ECECEC"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <TextView
+            android:id="@+id/gs_4_heading"
+            android:layout_width="350dp"
+            android:layout_height="72dp"
+            android:layout_marginTop="112dp"
+            android:fontFamily="@font/anek_latin_bold"
+            android:text="Did you got to know about the power of a human brain? "
+            android:textColor="#545454"
+            android:textSize="22sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/gs_4_body_1"
+            android:layout_width="350dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="28dp"
+            android:text="2 Days before you didn’t even knew that you can make a completely actionable plan to achieve something which can take you to heights! "
+            android:textColor="#6C6C6C"
+            app:layout_constraintStart_toStartOf="@+id/gs_4_heading"
+            app:layout_constraintTop_toBottomOf="@+id/gs_4_heading" />
+
+        <TextView
+            android:id="@+id/gs_4_body_2"
+            android:layout_width="350dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:text="I think it’s your destiny which led you here. "
+            android:textColor="#7E7E7E"
+            app:layout_constraintStart_toStartOf="@+id/gs_4_heading"
+            app:layout_constraintTop_toBottomOf="@+id/gs_4_body_1" />
+
+        <TextView
+            android:id="@+id/gs_4_body_3"
+            android:layout_width="350dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:text="You’re not just planning, you’re building your future. You’re all set to achieve big in life. All the best mate. "
+            android:textColor="#7E7E7E"
+            app:layout_constraintStart_toStartOf="@+id/gs_4_heading"
+            app:layout_constraintTop_toBottomOf="@+id/gs_4_body_2" />
+
+        <TextView
+            android:id="@+id/gs_4_highlight"
+            android:layout_width="350dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="75dp"
+            android:fontFamily="@font/alatsi"
+            android:text="Now, breakdown the goal into more smaller steps. i.e weekly goals "
+            android:textColor="#50B043"
+            app:layout_constraintStart_toStartOf="@+id/gs_4_body_3"
+            app:layout_constraintTop_toBottomOf="@+id/gs_4_body_3" />
+
+        <Button
+            android:id="@+id/gs_4_submit_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:backgroundTint="#039714"
+            android:fontFamily="@font/alatsi"
+            android:text="Proceed to Breakdown More"
+            android:textColor="#FFFFFF"
+            app:layout_constraintEnd_toEndOf="@+id/gs_4_highlight"
+            app:layout_constraintStart_toStartOf="@+id/gs_4_highlight"
+            app:layout_constraintTop_toBottomOf="@+id/gs_4_highlight" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

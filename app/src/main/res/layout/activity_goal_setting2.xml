@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#D9D9D9"
+    tools:context=".MainActivity">
+
+
+    <TextView
+        android:id="@+id/gs_2_heading"
+        android:layout_width="320dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="84dp"
+        android:fontFamily="@font/poppins_semibold"
+        android:gravity="left"
+        android:paddingStart="10dp"
+        android:text="Glad to see that you\'ve purpose in your life. Most of the people aren\'t like you!"
+        android:textSize="18sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.496"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/gs2_body"
+        android:layout_width="320dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="64dp"
+        android:fontFamily="@font/poppins"
+        android:text="Now we are at the step which is most important for achieving a goal. You have to breakdown your long term goal target into mothly smaller targets. (for instance : If I wanna buy a car in 6 months, I will plan like I should save 50k in first month, 120k in second....and so on)"
+        app:layout_constraintStart_toStartOf="@+id/gs_2_heading"
+        app:layout_constraintTop_toBottomOf="@+id/gs_2_heading" />
+
+    <Button
+        android:id="@+id/gs_2_submit_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        android:backgroundTint="#5DBD09"
+        android:text="Let\'s proceed"
+        app:layout_constraintEnd_toEndOf="@+id/gs2_body"
+        app:layout_constraintStart_toStartOf="@+id/gs2_body"
+        app:layout_constraintTop_toBottomOf="@+id/gs2_body" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

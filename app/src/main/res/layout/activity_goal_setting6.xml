@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Goal_Setting_6">
+
+    <TextView
+        android:id="@+id/gs_6_t1"
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="120dp"
+        android:fontFamily="@font/poppins"
+        android:text="Now you have a highly broken down and executable plan. \n\nI as a machine have a lot of data about people\'s working plans, the ideology, and work patterns."
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/gs_6_t2"
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="36dp"
+        android:fontFamily="@font/poppins"
+        android:text="Now before I can give you a masterplan, I want you to tell me about when do you get time for your goal everyday. You may have your job/schools/colleges too. I have to analyze your routine and suggest when should you work."
+        app:layout_constraintStart_toStartOf="@+id/gs_6_t1"
+        app:layout_constraintTop_toBottomOf="@+id/gs_6_t1" />
+
+    <TextView
+        android:id="@+id/gs_6_t3"
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        android:fontFamily="@font/poppins"
+        android:text="You\'re almost there! Just fill the last form about about your weekly routine. "
+        app:layout_constraintStart_toStartOf="@+id/gs_6_t2"
+        app:layout_constraintTop_toBottomOf="@+id/gs_6_t2" />
+
+    <TextView
+        android:id="@+id/gs_6_highlight"
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        android:fontFamily="@font/poppins"
+        android:text="After this, I can give you active suggestions for what to do when to do!"
+        android:textColor="#099A0B"
+        app:layout_constraintStart_toStartOf="@+id/gs_6_t3"
+        app:layout_constraintTop_toBottomOf="@+id/gs_6_t3" />
+
+    <Button
+        android:id="@+id/gs_6_proceed_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:backgroundTint="#29AE00"
+        android:fontFamily="@font/poppins"
+        android:paddingHorizontal="30dp"
+        android:paddingVertical="10dp"
+        android:text="Okay, Proceed"
+        app:layout_constraintEnd_toEndOf="@+id/gs_6_highlight"
+        app:layout_constraintStart_toStartOf="@+id/gs_6_highlight"
+        app:layout_constraintTop_toBottomOf="@+id/gs_6_highlight" />
+</androidx.constraintlayout.widget.ConstraintLayout>

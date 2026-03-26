@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Goal_Setting_5">
+
+    <TextView
+        android:id="@+id/gs_5_heading"
+        android:layout_width="320dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="84dp"
+        android:fontFamily="@font/poppins_semibold"
+        android:gravity="left"
+        android:paddingStart="10dp"
+        android:text="Set Your Weekly Goals:"
+        android:textSize="18sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.496"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/gs_5_constraintLayout"
+        android:layout_width="370dp"
+        android:layout_height="395dp"
+        android:layout_marginTop="40dp"
+        android:background="@drawable/goal_breakdown_card_background"
+        app:layout_constraintEnd_toEndOf="@+id/gs_5_heading"
+        app:layout_constraintStart_toStartOf="@+id/gs_5_heading"
+        app:layout_constraintTop_toBottomOf="@+id/gs_5_heading">
+
+        <ListView
+            android:id="@+id/weekly_goal_setting_list"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <Button
+        android:id="@+id/submit_weekly_goals"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:backgroundTint="#38A305"
+        android:text="Submit"
+        app:layout_constraintEnd_toEndOf="@+id/gs_5_constraintLayout"
+        app:layout_constraintStart_toStartOf="@+id/gs_5_constraintLayout"
+        app:layout_constraintTop_toBottomOf="@+id/gs_5_constraintLayout" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
